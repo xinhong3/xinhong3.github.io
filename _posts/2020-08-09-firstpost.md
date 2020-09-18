@@ -1,5 +1,6 @@
 ---
 layout: post
---- 
+title: Django Login App
+---
 
-This is my first post.
+[A mock login app using Django.](https://github.com/xinhong3/django_login_app)
