@@ -1,3 +1,7 @@
+---
+layout: post
+title: Details of Inorder Traversal (why this way?)
+---
 
 # Minor details of in-order traversal
 What’s wrong with the following code?
@@ -8,7 +12,7 @@ class Solution {
         // (left), (root), (right)
         var stack = new ArrayDeque<TreeNode>();
         var res = new ArrayList<Integer>();
-        
+
         while (!stack.isEmpty() || root != null) {
             while (root != null) {
                 stack.push(root);
@@ -47,10 +51,10 @@ Take the following example:
 4. Stack = [3], root = 2
 	1. stack = [3, 2], root = null (pushed again!!)
 	2. Stack is not empty, root = 2
-	3. ... 
+	3. ...
 
-The problem is when root has no left child, we should let `root = root.right`  even though `root.right` might be `null`. 
-Otherwise, 
+The problem is when root has no left child, we should let `root = root.right`  even though `root.right` might be `null`.
+Otherwise,
 1. `root` will not be `null` and therefore the subroutine will never end.
 2. When `root` is not `null`, we add it in the stack at the beginning, then we pop the stack, retrieving the **same** node, and it’s going on and on…
 
@@ -66,10 +70,10 @@ The code can be corrected and simplified as:
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         // left, root, right
-        
+
         var stack = new ArrayDeque<TreeNode>();
         var res = new ArrayList<Integer>();
-        
+
         while (!stack.isEmpty() || root != null) {
             while (root != null) {
                 stack.push(root);
