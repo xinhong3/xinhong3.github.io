@@ -1,9 +1,14 @@
 ---
 layout: post
 title: Details of Inorder Traversal (why this way?)
+author: 'Xin'
+excerpt_separator: <!--more-->
 ---
 
-# Minor details of in-order traversal
+After revisiting the inorder traversal (using stack), some if-statements make more sense to me... Here's a wrong version and a corrected version.
+
+<!--more-->
+
 What’s wrong with the following code?
 You can paste it in [leetcode no.94](https://leetcode.com/problems/binary-tree-inorder-traversal/), it won’t work because of timeout.
 ```java
