@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Details of Inorder Traversal (why this way?)
-author: 'Xin'
+author: 'Xin Hong'
 excerpt_separator: <!--more-->
 ---
 

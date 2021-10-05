@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Django Login App
+author: 'Xin Hong'
 ---
 
 A mock login app using Django.

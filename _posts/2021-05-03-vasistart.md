@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CS465 Project - Vasistart
-author: 'Xin'
+author: 'Xin Hong'
 excerpt_separator: <!--more-->
 ---
 

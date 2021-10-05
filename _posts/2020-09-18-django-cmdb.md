@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Django CMDB
+author: 'Xin Hong'
 ---
 
 A Configuration management database implemented in Django.
