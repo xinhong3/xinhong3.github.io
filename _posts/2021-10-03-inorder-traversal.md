@@ -3,6 +3,7 @@ layout: post
 title: Details of Inorder Traversal (why this way?)
 author: 'Xin Hong'
 excerpt_separator: <!--more-->
+tags: "leetcode"
 ---
 
 After revisiting the inorder traversal (using stack), some if-statements make more sense to me... Here's a wrong version and a corrected version.
