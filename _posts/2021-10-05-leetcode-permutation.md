@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 tags: "leetcode"
 ---
 
-Four leetcode problems that plays with permutation.
+Four leetcode problems that play with permutation.
 <!--more-->
 
 [46. Permutations](https://leetcode.com/problems/permutations/)
