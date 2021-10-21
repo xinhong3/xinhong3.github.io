@@ -3,7 +3,7 @@ layout: post
 title: A Day with Permutations
 author: 'Xin Hong'
 excerpt_separator: <!--more-->
-tags: "leetcode", "permutation", "backtracking", "math"
+tags: leetcode permutation backtracking math
 ---
 
 Four leetcode problems that play with permutation.
