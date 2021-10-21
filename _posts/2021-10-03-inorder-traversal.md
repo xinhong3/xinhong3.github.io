@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Details of Inorder Traversal (why this way?)
+title: Details of Inorder Traversal
 author: 'Xin Hong'
 excerpt_separator: <!--more-->
 tags: "leetcode"

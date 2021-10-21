@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Day with Permutations
+title: Leetcode - Permutations
 author: 'Xin Hong'
 excerpt_separator: <!--more-->
 tags: leetcode permutation backtracking math
