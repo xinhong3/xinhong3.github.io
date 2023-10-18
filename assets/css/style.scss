@@ -2,3 +2,48 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+
+/* Add styles for the left-right layout */
+.container {
+    display: flex;
+    justify-content: center; /* Center the left and right sections */
+    align-items: center; /* Center vertically within the container */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  .left {
+    flex: 1;
+    text-align: center; /* Align header and content to the left */
+  }
+  
+  .right {
+    flex: 6;
+    text-align: center; /* Align content in the right section to the left */
+    padding-left: 20px; /* Add left padding to separate the sections */
+  }
+  
+  /* Add a CSS class for a round avatar */
+  .avatar {
+    border-radius: 50%;
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    overflow: hidden;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 3vh;
+  }
+  
+  /* You can further style the avatar as per your design preferences */
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire circle */
+  }
+
+  /* Add styles for the header content */
+.header-content {
+    justify-content: center; /* Center the content horizontally */
+    text-align: center;
+  }
