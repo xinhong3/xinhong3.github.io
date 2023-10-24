@@ -1,26 +1,26 @@
 ---
 ---
 
-@import "jekyll-theme-minimal";
+@import "{{ site.theme }}";
 
 
 /* Add styles for the left-right layout */
-.container {
-    display: flex;
-    justify-content: center; /* Center the left and right sections */
-    align-items: center; /* Center vertically within the container */
-    padding: 20px; /* Adjust the padding as needed */
-  }
-  .left {
-    flex: 1;
-    text-align: center; /* Align header and content to the left */
-  }
+// .container {
+//     display: flex;
+//     justify-content: center; /* Center the left and right sections */
+//     align-items: center; /* Center vertically within the container */
+//     padding: 20px; /* Adjust the padding as needed */
+//   }
+//   .left {
+//     flex: 1;
+//     text-align: center; /* Align header and content to the left */
+//   }
   
-  .right {
-    flex: 6;
-    text-align: center; /* Align content in the right section to the left */
-    padding-left: 20px; /* Add left padding to separate the sections */
-  }
+//   .right {
+//     flex: 6;
+//     text-align: center; /* Align content in the right section to the left */
+//     padding-left: 20px; /* Add left padding to separate the sections */
+//   }
   
   /* Add a CSS class for a round avatar */
   .avatar {
@@ -47,3 +47,99 @@
     justify-content: center; /* Center the content horizontally */
     text-align: center;
   }
+
+.nav{
+    border-bottom:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+  display:inline;
+}
+
+.nav a{
+  display:inline-block;
+  padding:10px;
+  font-family: "Computer Modern Typewriter";
+  text-decoration: none;
+  font-size: large;
+  color: #111111;
+}
+
+.article {
+  text-align: left;
+}
+
+footer {
+  position:relative;
+  bottom: 0px;
+  height: 100px;
+  left: 0;
+  right: 0;
+  // bottom:50px;
+  // -webkit-font-smoothing:subpixel-antialiased;
+  text-align: center;
+}
+
+.projects {
+  text-align: left;
+}
+
+section {
+  width:100%;
+}
+
+section.about {
+  position: relative;
+  width:70%;
+  float:right;
+  right:15%;
+  text-align: left;
+}
+
+
+.about p {
+  font-size: medium;
+}
+
+.posts {
+  text-align: left;
+}
+
+section .posts {
+  position: relative;
+  width:70%;
+  float:right;
+  right:15%;
+  text-align: left;
+}
+
+h1 {
+  font-size:28px;
+}
+
+h2 {
+  color:#393939;
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+u {
+  text-decoration:underline;
+  text-decoration-style: dashed;
+  text-underline-position: under;
+}
+
+body {
+  padding: 0;
+}
