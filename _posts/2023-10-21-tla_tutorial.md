@@ -5,10 +5,10 @@ author: 'Xin Hong'
 excerpt_separator: <!--more-->
 tags: TLA+
 ---
-## Introduction
 
 An TLA+ Guide from dummies (me) to people who have no context on this.
-
+<!--more-->
+## Introduction
 What this is article is:
 - quick intro and roadmap for people who want to experience TLA+ but have no previous experence.
 - pointers to TLA+ learning resources.
