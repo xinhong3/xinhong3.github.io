@@ -80,11 +80,11 @@ You can check the TLA+ tutorial for a detailed description of those, but here's 
 
 $$ \forall i \in \mathbb{N}, P \text{ is true for } s_i$$
 
-- `<>[]P`: `P` is **evetually always true**. Meaning there exists some number $n$ after which $P$ will always be true for $s_i$.
+- `<>[]P`: `P` is **evetually always true**. Meaning there exists some number $$n$$ after which $$P$$ will always be true for $$s_i$$.
 
 $$ \exists n \in \mathbb{N}, \forall i \geq n, P \text{ is true for } s_i$$
 
-- `[]<>P`: `P` is **true for infinite many times**. Let $ N = \{n_i\}$ denotes a sequence in $\mathbb{N}$. Then this translates to:
+- `[]<>P`: `P` is **true for infinite many times**. Let $$ N = \{n_i\} $$ denotes a sequence in $$\mathbb{N}$$. Then this translates to:
 
 $$ \exists N \subseteq \mathbb{N}, \forall i \in \mathbb{N}, P(s_{n_i}) \text{ is true} $$
 
