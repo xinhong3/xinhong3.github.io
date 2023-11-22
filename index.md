@@ -1,9 +1,10 @@
 ---
 layout: home
 title: home
+author: 'Xin Hong'
 ---
 
-<h1 style="text-align: center; font-weight: lighter; font-size: 25px"> Xin (Ethan) Hong </h1>
+<h1 style="text-align: center; font-weight: lighter; font-size: 25px"> Xin Hong </h1>
 
 I'm a <u>software engineer in Amazon</u>, based in Bellevue, WA. My daily work involves in Java backend development, specifically in processing payment events within the last-mile domain. Our team support key tenants like Flex drivers and Amazon Delivery partners in multiple countries.
 
